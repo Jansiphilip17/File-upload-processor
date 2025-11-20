@@ -1,0 +1,29 @@
+Create Upload Views
+
+PDF Upload Flow
+
+Receive PDF file
+
+Save file in server
+
+Use pdfplumber → loop through pages
+
+Extract text
+
+Save text into database
+
+Return JSON response
+
+CSV Upload Flow
+
+Receive CSV file
+
+Save file
+
+Use pandas → read CSV
+
+Convert dataframe → JSON list
+
+Save JSON into DB
+
+Return JSON response
